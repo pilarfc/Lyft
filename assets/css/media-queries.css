@@ -1,0 +1,13 @@
+/* Queries para botones home */
+@media(max-width : 1600px) {
+    .botones-home {
+        padding-top: 62%;
+    }
+}
+
+
+@media(max-width : 767px) {
+    .botones-home {
+        padding-top: 177%;
+    }
+}

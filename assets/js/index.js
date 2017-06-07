@@ -6,13 +6,5 @@ function timeout () {
 
 function redirect () {
     window.location = "home.html";
-    return
+    return;
 }
-
-
-var cargarPagina = function () {
-    
-}
-
-
-$(document).ready(cargarPagina);

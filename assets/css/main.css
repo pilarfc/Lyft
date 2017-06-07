@@ -1,6 +1,19 @@
 .fondo {
-    background-image: url(../img/fondo6.jpg);
+    background-image: url("https://media.giphy.com/media/6ItwnmNxI7aG4/giphy.gif");
     background-position: bottom;
     background-size: cover;
 	height: 100vh;
+}
+
+.fondo-splash {
+    background-image: url(../img/splash.png);
+    background-size: cover;
+    background-position: center;
+	height: 100vh;
+}
+
+.btn {
+    background-color: #FF00BF;
+    border-color: white;
+    border-radius: 19px; 
 }
