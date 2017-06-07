@@ -1,13 +1,41 @@
-/* Queries para botones home */
+/* Queries para input */
 @media(max-width : 1600px) {
-    .botones-home {
-        padding-top: 62%;
-    }
+    
+    input[type=tel] {
+    width: 75%;
+   }
 }
 
 
 @media(max-width : 767px) {
-    .botones-home {
-        padding-top: 177%;
+    input[type=tel] {
+    width: 40%;
+   }
+}
+
+/*Querie para iPad*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    /*.botones-home {
+        padding-top: 14%;
     }
+    */
+    input[type=tel] {
+        width: 70%;
+       }
+}
+
+
+/*Querie para iphone 5*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+      input[type=tel] {
+        width: 35%;
+       }
 }

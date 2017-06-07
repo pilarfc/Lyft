@@ -1,19 +1,65 @@
-.fondo {
-    background-image: url("https://media.giphy.com/media/6ItwnmNxI7aG4/giphy.gif");
-    background-position: bottom;
+.fondo-gif {
+    background: url("https://media.giphy.com/media/6ItwnmNxI7aG4/giphy.gif");
+    background-position: center;
     background-size: cover;
-	height: 100vh;
+    position: relative;
+    height: 100vh;
 }
+
 
 .fondo-splash {
     background-image: url(../img/splash.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 	height: 100vh;
 }
 
-.btn {
+.btn-login {
     background-color: #FF00BF;
     border-color: white;
     border-radius: 19px; 
+    margin-top: 90vh;
+}
+
+
+.botonder {
+    position: absolute;
+}
+
+.color-volver {
+    color: rgba(203,96,179,1);
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#linea {
+    opacity: 0.3;
+    width: 100%;
+}
+
+.drop-pais {
+    background-color: white;
+    color: black; 
+}
+
+.drop-pais:hover {
+    background-color: white;
+}
+
+
+input[type=tel] {
+    width: 75%;
+    display: inline;
+    height: 2.5rem;
+    color: black;
+}
+
+#form-telefono {
+    margin-top: 7%;
 }
